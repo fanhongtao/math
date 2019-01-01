@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="240" height="150">
+<style>
+path{fill:transparent;stroke-width:1;stroke:rgb(0,0,0);}
+text{font-size: 120%;}
+tspan{font-size: 60%;}
+</style>
+<!-- A(40,50); B(40,130); C(150,50); Q(150,130)   -->
+<path d="M10 50 L 200 50 M 10 130 L200 130"/>
+<path d="M40 50 L40 130 L150 50 L150 130 L40 50"/>
+<text x="35" y="45">A</text>
+<text x="35" y="148">B</text>
+<text x="145" y="45">C</text>
+<text x="145" y="148">D</text>
+<g style="font-family:DejaVu Sans Mono,arial;font-style:italic;">
+<text x="210" y="50">l<tspan>1</tspan></text>
+<text x="210" y="140">l<tspan>2</tspan></text>
+</g>
+</svg>

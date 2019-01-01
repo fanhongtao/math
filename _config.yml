@@ -2,7 +2,8 @@
 markdown:         kramdown
 highlighter:      rouge
 paginate:         10     # the number of post per page
-permalink:        /:year/:month/:day/:title.html
+#permalink:        /:year/:month/:day/:title.html
+permalink:        /:title.html
 safe:             true
 lsi:              false
 excerpt_separator: <!--more-->
@@ -10,8 +11,8 @@ plugins:
     - jemoji
 
 # configuration required for some pages
-title:            Fan's Blog
-description:      以经济的眼光观察世界
+title:            Fan's Math World
+description:      感受数学之美
 author:
     name:         Fan Hongtao
     email:        fanhongtao@gmail.com

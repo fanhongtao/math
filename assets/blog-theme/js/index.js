@@ -5,6 +5,7 @@ $(document).ready(function() {
     generateQRcode();
     generateContent();
     backToTop();
+    changeEmptyHeadTable();
 });
 
 /**
@@ -49,3 +50,28 @@ function backToTop() {
     });
 }
 
+// 修改表头字段为空的表格：删除表头，并隐藏表格线，清除表格背景色，表格居中显示
+function changeEmptyHeadTable() {
+  $("table").each(function (tabindex, tabitem) {
+    var clean = false;
+    var count = 0;
+    var total = 0;
+    var last_th;
+    $(tabitem).find("th").each(function (thindex, thitem) {
+      total = total + 1;
+      if ($.trim($(thitem).text()).length==0){
+        last_th = thitem;
+        count = count + 1;
+      }
+    });
+    
+    if (count == total) {
+      $(last_th).parent().remove();
+      $(tabitem).css("margin","0px auto"); // 居中显示
+      $(tabitem).css("border","none");
+      $(tabitem).find("tr").css("border", "none");
+      $(tabitem).find("td").css("border", "none");
+      $(tabitem).find("tr").css("background", "transparent")
+    }
+  });
+}

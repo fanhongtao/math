@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="230" height="140">
+<style>
+path{fill:transparent;stroke-width:1;stroke:rgb(0,0,0);}
+text{font-size: 120%;}
+</style>
+<!-- P(60,30); Q(15,120); R(105,120); S(180,120) -->
+<path d="M60 30 L15 120 L180 120 L60 30 L105 120"/>
+<path d="M55 40 C58 45 61 45 65 40"/>
+<path d="M67 44 C71 50 75 47 76 42
+  M70 50 C73 52 76 50 80 45"/>
+<text x="55" y="26">P</text>
+<text x="5" y="140">Q</text>
+<text x="100" y="140">R</text>
+<text x="180" y="140">S</text>
+<text x="43" y="70">α-β</text>
+<text x="82" y="70">β</text>
+</svg>

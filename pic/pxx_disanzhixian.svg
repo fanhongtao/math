@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="240" height="180">
+<style>
+path{fill:transparent;stroke-width:1;stroke:rgb(0,0,0);}
+text{font-size: 150%;}
+tspan{font-size: 60%;}
+</style>
+<!-- l1 y=40; l2 y=90; l3 y=140 -->
+<!-- A(30,40); B(130,40); C(45,90); D(145,40); P(60,140); Q(160,140); M() -->
+<path d="M10 40 L200 40 M10 90 L200 90 M10 140 L200 140 M30 40 L60 140 L130 40 L160 140 L30 40"/>
+<text x="10" y="36">A</text>
+<text x="130" y="36">B</text>
+<text x="25" y="110">C</text>
+<text x="155" y="110">D</text>
+<text x="50" y="160">P</text>
+<text x="150" y="160">Q</text>
+<text x="88" y="120">M</text>
+</svg>

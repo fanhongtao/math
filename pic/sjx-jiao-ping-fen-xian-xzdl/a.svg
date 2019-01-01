@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="230" height="230">
+<style>
+path{fill:transparent;stroke-width:1;stroke:rgb(0,0,0);}
+text{font-size: 120%;}
+</style>
+<!-- A(140,100); B(20,200); C(200,200); E(224,30); P(120,200)   -->
+<path d="M140 100 L20 200 L200 200 L140 100 L120 200"/>
+<path stroke-dasharray="10,4"  d="M200 200 L224 30 L140 100"/>
+<text x="130" y="95">A</text>
+<text x="15" y="220">B</text>
+<text x="195" y="220">C</text>
+<text x="220" y="25">E</text>
+<text x="110" y="220">P</text>
+</svg>

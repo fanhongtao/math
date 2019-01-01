@@ -1,7 +1,21 @@
   <script type="text/x-mathjax-config">
+    MathJax.Ajax.config.path["Contrib"] = "{{ "/assets/mathjax/contrib" | prepend:site.baseurl }}";
     MathJax.Hub.Config({
+      extensions: ["[Contrib]/img/img.js"],
       tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
     });
+MathJax.Hub.Register.StartupHook("TeX Jax Ready", function () {
+  MathJax.InputJax.TeX.Definitions.Add({
+    macros: {
+      symbol: ["Macro", "\\img [width=16mu] {#1}", 1],
+      jx: ["Macro", "\\symbol { {{ "/assets/images/rectangle.svg" | prepend: site.baseurl }} }"], // 矩形
+      px: ["Macro", "\\symbol { {{ "/assets/images/parallel.svg" | prepend: site.baseurl }} }"], // 平行
+      pxsbx: ["Macro", "\\symbol { {{ "/assets/images/parallelogram.svg" | prepend: site.baseurl }} }"], // 平行四边形
+      xs: ["Macro", "\\, \\symbol { {{ "/assets/images/similar.svg" | prepend: site.baseurl }} } \\,"], // 相似
+      qd: ["Macro", "\\, \\symbol { {{ "/assets/images/congruent.svg" | prepend: site.baseurl }} } \\,"], // 全等
+    }
+  });
+});
   </script>
   <script type="text/javascript" async
     src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML">

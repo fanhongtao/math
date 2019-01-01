@@ -1,0 +1,7 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+preserveAspectRatio="xMinYMin meet" viewBox="0,0,100,100">
+<line x1="60" y1="0" x2="15" y2="100"
+style="stroke-width:6;stroke:rgb(0,0,0)"/>
+<line x1="90" y1="0" x2="45" y2="100"
+style="stroke-width:6;stroke:rgb(0,0,0)"/>
+</svg>

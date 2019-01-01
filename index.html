@@ -12,7 +12,7 @@ layout: default
           {% include page_tag_min.html %}
         </div>
         <hr/>
-        <p>{% if post.description %}{{ post.description }}{% else %}{{ post.excerpt | strip_html | truncate:200 }}{% endif %}</p>
+        <p>{% if post.description %}{{ post.description }}{% else %}{{ post.excerpt }}{% endif %}</p>
         <p class="more"><a href="{{ post.url | prepend: site.baseurl }}" title="Read More" rel="nofollow"><span>&#10149;</span>Read More</a></p>
       </article>{% endfor %}
       {% if paginator.total_pages > 1 %}<div id="pagination"><ul class="index-pagination">{% for page in (1..paginator.total_pages) %}

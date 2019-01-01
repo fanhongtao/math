@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="240" height="180">
+<style>
+path{fill:transparent;stroke-width:1;stroke:rgb(0,0,0);}
+text{font-size: 120%;}
+tspan{font-size: 60%;}
+</style>
+<!-- A(100,50); B(100,130); P(170,130); Q(172,148)   -->
+<path d="M10 50 L 200 50 M 10 130 L200 130 M 100 5 L 100 160"/>
+<path d="M20 110 L200 155"/>
+<circle cx="170" cy="130" r="2"/>
+<circle cx="172" cy="148" r="2"/>
+<text x="80" y="45">A</text>
+<text x="80" y="120">B</text>
+<text x="165" y="125">P</text>
+<text x="165" y="170">Q</text>
+<g style="font-family:DejaVu Sans Mono,arial;font-style:italic;">
+<text x="210" y="40">l<tspan>1</tspan></text>
+<text x="210" y="140">l<tspan>2</tspan></text>
+<text x="100" y="20">l<tspan>3</tspan></text>
+<text x="210" y="180">l<tspan>4</tspan></text>
+</g>
+</svg>

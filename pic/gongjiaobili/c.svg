@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="230" height="140">
+<style>
+path{fill:transparent;stroke-width:1;stroke:rgb(0,0,0);}
+text{font-size: 120%;}
+</style>
+<!-- A(220,30); B(110,120); C(200,120); X(10,120); Q(60,120); P(165,75); Z(198,48) -->
+<path d="M10 120 L200 120 M220 30 L110 120"/>
+<path stroke-dasharray="10,4" d="M10 120 L198 48 L60 120 M165 75 L200 120 L198 48 M200 120 L220 30"/>
+<text x="210" y="27">A</text>
+<text x="100" y="140">B(Y)</text>
+<text x="190" y="140">C</text>
+<text x="5" y="140">X</text>
+<text x="50" y="140">Q</text>
+<text x="155" y="100">P</text>
+<text x="183" y="45">Z</text>
+</svg>

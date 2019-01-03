@@ -13,7 +13,7 @@ book: 数学手册
 
 # 三角函数的定义
 
-||||
+|transparent&&&&|||
 |:--:|:--:|:--:|
 | <img src="{{ site.baseurl }}{% link /pic/sanjiaohanshudingyi/a.svg %}"/> | <img src="{{ site.baseurl }}{% link /pic/sanjiaohanshudingyi/b.svg %}"/> | <img src="{{ site.baseurl }}{% link /pic/sanjiaohanshudingyi/c.svg %}"/> |
 

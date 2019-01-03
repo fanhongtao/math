@@ -27,7 +27,7 @@ $$ \frac{S_{\triangle ABC}}{S_{\triangle A'B'C'}} > \frac{AB \cdot BC}{A'B' \cdo
 
 若 $\angle B + \angle B' > 180^\circ$，如图
 
-||
+|transparent&&&&|
 |:-:|:-:|
 |<img src="{{ site.baseurl }}{% link /pic/gongjiaobilinidingli/a.svg %}"/>|<img src="{{ site.baseurl }}{% link /pic/gongjiaobilinidingli/b.svg %}"/>|
 

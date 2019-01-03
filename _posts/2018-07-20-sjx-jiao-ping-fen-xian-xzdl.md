@@ -11,7 +11,7 @@ book: 数学瑰宝
 
 如图：
 
-|||
+|transparent&&&&||
 |:--:|:--:|
 |<img src="{{ site.baseurl }}{% link /pic/sjx-jiao-ping-fen-xian-xzdl/a.svg %}"/>|<img src="{{ site.baseurl }}{% link /pic/sjx-jiao-ping-fen-xian-xzdl/b.svg %}"/>|
 | (a) | (b) |

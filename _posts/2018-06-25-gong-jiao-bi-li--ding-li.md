@@ -17,7 +17,7 @@ $$ \frac{S_{\triangle ABC}}{S_{\triangle A'B'C'}} = \frac{AB \cdot BC}{A'B' \cdo
 
 把两个三角形拼在一起，让 $\angle B$ 的两边所在直线与 $\angle B'$ 的两边所在直线重合，如图所示，
 
-||
+|transparent&&&&|
 |:-:|:-:|
 |<img src="{{ site.baseurl }}{% link /pic/gongjiaobili/a.svg %}"/>|<img src="{{ site.baseurl }}{% link /pic/gongjiaobili/b.svg %}"/>|
 |(a)|(b)|

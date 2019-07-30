@@ -44,7 +44,7 @@ S_{\triangle ABC} &=& S - S_{\triangle APC} - S_{\triangle BCQ} \\
 $$ \begin{eqnarray} \\
 S_{\triangle ABC} &=& S - S_{\triangle ACP} + S_{\triangle BCQ} \\
 &=& S - \lambda S_{\triangle PAQ} + (1 - \lambda)S_{\triangle PBQ}\\
-&=& S - \lambda (S - S_{\triangle QAB}) + (1 + \lambda)(S_{\triangle PAB} - S)\\
+&=& S - \lambda (S - S_{\triangle QAB}) + (1 - \lambda)(S_{\triangle PAB} - S)\\
 &=& \lambda S_{\triangle QAB} + (1 - \lambda)S_{\triangle PAB}\\
 \end{eqnarray} $$
 

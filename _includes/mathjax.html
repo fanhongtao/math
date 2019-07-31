@@ -7,7 +7,7 @@
 MathJax.Hub.Register.StartupHook("TeX Jax Ready", function () {
   MathJax.InputJax.TeX.Definitions.Add({
     macros: {
-      symbol: ["Macro", "\\img [width=16mu] {#1}", 1],
+      symbol: ["Macro", "\\img [width=16mu,height=16mu] {#1}", 1],
       jx: ["Macro", "\\symbol { {{ "/assets/images/rectangle.svg" | prepend: site.baseurl }} }"], // 矩形
       px: ["Macro", "\\symbol { {{ "/assets/images/parallel.svg" | prepend: site.baseurl }} }"], // 平行
       pxsbx: ["Macro", "\\symbol { {{ "/assets/images/parallelogram.svg" | prepend: site.baseurl }} }"], // 平行四边形
